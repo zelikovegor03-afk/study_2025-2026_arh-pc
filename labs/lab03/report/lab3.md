@@ -8,7 +8,7 @@
  
 ОТЧЕТ 
 ПО ЛАБОРАТОРНОЙ РАБОТЕ № 3 
-	дисциплина: 	Архитектура компьютера 	 
+	дисциплина: 	Архитектура_компьютера 	 
  
  
  
@@ -148,34 +148,34 @@ cli/releases/t ag/v1.7.34).
  	-На компьютерах в дисплейных классах факультета физико-математических и естественных наук РУДН все необходимое ПО установлено. 
 3. Порядок выполнения лабораторной работы. 
     1. Открыл терминал. 
-    2. Перешел в каталог курса, сформированный при выполнении лабораторной работы №2: (Рис. 3.1.) aymatienkodk4n58@fedora:~$ cd ~/work/study/2025-2026/"Архитектура компьютера"/study_2025-2026_arh-pc 
+    2. Перешел в каталог курса, сформированный при выполнении лабораторной работы №2: (Рис. 3.1.) sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~$ cd ~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc 
  	-Обновил локальный репозиторий, скачав изменения из удаленного репозитория с помощью команды: (Рис. 3.1.) 
 
 Рис. 3.1. Обновление каталога 
  
     3. Перешёл в каталог с шаблоном отчета по лабораторной работе № 3: 
-aymatienkodk4n58@fedora:~$ cd ~/work/study/2025-2026/"Архитектура компьютера"/study_2025-2026_arh-pc/labs/lab03/report 
+sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~$ cd ~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab03/report 
     4. Провел компиляцию шаблона с использованием Makefile. Для этого ввел команду: 
-aymatienkodk4n58@fedora:~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab03/report~$ make (Рис. 3.2) 
+sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab03/report~$ make (Рис. 3.2) 
 
 Рис. 3.2. Компиляцию шаблона с использованием Makefile. 
  	-При успешной компиляции сгенерировались файлы arch-pc--lab03-report.pdf и arch-pc—lab03--report.docx. Открыл и проверил корректность полученных файлов. (Рис 3.3) 
 
 Рис. 3.3. Генерация файлов arch-pc--lab03--report.pdf и arch-pc—lab03--report.docx. 
     5. Удалил полученные файлы с использованием Makefile. Для этого ввел команду: 
-(myenv) aymatienkodk4n58@fedora:~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab03/report~$ make clean 
+ sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab03/report~$ make clean 
  	-Проверил, что после этой команды файлы report.pdf и report.docx были удалены:   (Рис 3.4) 
 
 Рис. 3.4. Удаление файлов 
  
  6. Открыл файл report.md c помощью любого текстового редактора, например gedit: (Рис. 3.5) 
-(myenv) aymatienkodk4n58@fedora:~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab03/report~$ gedit report.md 
+(myenv) sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab03/report~$ gedit report.md 
 
 Рис. 3.5. Открытие файлов report.md 
   
- 	7. Загрузил файлы 3-лабораторной работы на Github.(Рис. 3.6.) aymatienkodk4n58@fedora: ~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab03/report$ git add . 
-aymatienkodk4n58@fedora:~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab03/report$ git commit -am 'feat(main): add files lab-3' 
-aymatienkodk4n58@fedora:~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab03/report$ git push 
+ 	7. Загрузил файлы 3-лабораторной работы на Github.(Рис. 3.6.) sapolyakovdk2n26@sapolyakovdk2n26-FRB-X: ~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab03/report$ git add . 
+sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab03/report$ git commit -am 'feat(main): add files lab-3' 
+sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab03/report$ git push 
 
 Рис. 3.6. Перемещение файлов 
  
@@ -194,9 +194,9 @@ Markdown. В качестве отчёта необходимо предоста
  
 
 Рис. 4.3. Создание файлов Markdown 	 
- 	2. Загрузил файлы на github. (Рис. 4.4.) aymatienkodk4n58@fedora:~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab02/report$ git add . 
-aymatienkodk4n58@fedora:~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab02/report$ git commit -am 'feat(main): add files lab-3' 
-aymatienkodk4n58@fedora:~/work/study/2025-2026/Архитектура компьютера/study_2025-2026_arh-pc/labs/lab02/report$ git push 
+ 	2. Загрузил файлы на github. (Рис. 4.4.) sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab02/report$ git add . 
+sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab02/report$ git commit -am 'feat(main): add files lab-3' 
+sapolyakovdk2n26@sapolyakovdk2n26-FRB-X:~/work/study/2025-2026/Архитектура_компьютера/study_2025-2026_arh-pc/labs/lab02/report$ git push 
 
 Рис 4.4. Загрузка файлов на github 
   
